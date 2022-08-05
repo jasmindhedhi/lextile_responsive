@@ -1,21 +1,24 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/IMG_22171.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 680px;
+  min-height: 682px;
 }
 
 .u-section-1 .u-text-1 {
   letter-spacing: 27px;
   font-size: 4.5rem;
-  margin: 60px auto;
+  margin: 60px 15px;
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
-    min-height: 561px;
+    min-height: 248px;
   }
 
   .u-section-1 .u-text-1 {
@@ -27,10 +30,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 313px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 1.52941rem;
     margin-left: 46px;
@@ -39,10 +38,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 235px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 1.11765rem;
     margin-right: -20px;
@@ -51,15 +46,9 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 248px;
-  }
-
   .u-section-1 .u-text-1 {
     letter-spacing: 11px;
-    font-size: 1.23529rem;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-right: -16px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 409px;
@@ -281,7 +270,6 @@
   }
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/m2m-gekko-weld-inspection.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -299,6 +287,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 331px;
   }
@@ -408,11 +400,12 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 562px;
+    min-height: 658px;
   }
 
   .u-section-5 .u-text-2 {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-top: 43px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 }opacity: 50%;

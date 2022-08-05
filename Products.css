@@ -26,19 +26,19 @@
 }
 
 .u-section-1-1 .u-sheet-1 {
-  min-height: 678px;
+  min-height: 166px;
 }
 
 .u-section-1-1 .u-text-1 {
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Chakra Petch";
-  margin: 554px -23px 40px auto;
+  margin: 554px -23px 40px calc(((100% - 1140px) / 2) + 679px);
 }
 
 @media (max-width: 1199px) {
-  .u-section-1-1 .u-sheet-1 {
-    min-height: 559px;
+  .u-section-1-1 .u-text-1 {
+    margin-left: calc(((100% - 940px) / 2) + 560px);
   }
 }
 
@@ -49,9 +49,7 @@
 
   .u-section-1-1 .u-text-1 {
     width: auto;
-    margin-top: 239px;
-    margin-right: auto;
-    margin-bottom: 27px;
+    margin: 239px auto 27px 143px;
   }
 }
 
@@ -59,11 +57,15 @@
   .u-section-1-1 .u-sheet-1 {
     min-height: 263px;
   }
+
+  .u-section-1-1 .u-text-1 {
+    margin-left: 97px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1-1 .u-sheet-1 {
-    min-height: 650px;
+    min-height: 166px;
   }
 
   .u-section-1-1 .u-text-1 {
@@ -488,8 +490,6 @@
   }
 
   .u-section-2 .u-group-1 {
-    margin-top: 72px;
-    margin-bottom: 0;
     min-height: 1151px;
   }
 
@@ -520,6 +520,19 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 3968px;
+  }
+
+  .u-section-2 .u-group-1 {
+    margin-bottom: 45px;
+    min-height: 3923px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-bottom: 16px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 2.25rem;
     width: 340px;
